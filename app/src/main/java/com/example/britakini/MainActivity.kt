@@ -23,9 +23,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             BritaKiniTheme {
                 Box(modifier = Modifier.background(MaterialTheme.colorScheme.background)){
-
+                    OnBoardingScreen()
                 }
-                OnBoardingScreen()
             }
         }
     }
